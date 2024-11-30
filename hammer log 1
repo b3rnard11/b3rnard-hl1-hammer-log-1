@@ -1,0 +1,291 @@
+hlcsg v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/tools/hlcsg.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [      12 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+convert game_text     [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+Error: Entity 0, Brush 48: outside world(+/-32767): (271,-80001,210)-(77577,80000,56538)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77648,-80000,-19261)-(238,80001,41413)
+Error: Entity 0, Brush 49: outside world(+/-32767): (271,-80001,210)-(77577,80000,56538)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68447,-80000,202)-(255,80000,77684)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19208,-80001,206)-(77541,80000,77660)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19114,-80000,206)-(13363,80000,78876)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77646,-80000,-19269)-(255,80001,77684)
+Error: Entity 0, Brush 56: outside world(+/-32767): (-722,5317,-77Err7)-(228,80000,173)
+or: Entity 0, Brush 57: outside world(+/-32767): (-708,7834,-769)-(210,80000,149)
+Error: Entity 0, Brush 55: outside world(+/-32767): (254,-80000,206)-(255,-42346,208)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77646,-80000,-19269)-(238,80001,41403)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77653,-80000,-19242)-(238,80001,41440)
+Error: brush outside world
+Description: The map has a problem which must be fixed
+Howto Fix: Check the file http://www.zhlt.info/common-mapping-problems.html for a detailed explanation of this problem
+
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77646,-80000,-19269)-(238,80001,41403)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68447,-80000,202)-(255,80000,77684)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 57
+
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77653,-80000,-19242)-(238,80001,41440)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19114,-80000,206)-(13363,80000,78876)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19208,-80001,206)-(77541,80000,77660)
+Error: Entity 0, Brush 48: outside world(+/-32767): (271,-80001,210)-(77577,80000,56538)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77646,-80000,-19269)-(255,80001,77684)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77648,-80000,-19261)-(238,80001,41413)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 55
+
+Error: Entity 0, Brush 49: outside world(+/-32767): (271,-80001,210)-(77577,80000,56538)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 56
+
+Error: Entity 0, Brush 57: outside world(+/-32767): (-724,7818,-805)-(226,80016,185)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 53
+
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19208,-80001,206)-(77541,80000,77660)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77646,-80000,-19269)-(238,80001,41403)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68447,-80000,202)-(255,80000,77684)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77653,-80000,-19242)-(238,80001,41440)
+Error: Entity 0, Brush 48: outside world(+/-32767): (271,-80001,210)-(77577,80000,56538)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 59
+
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77648,-80000,-19261)-(238,80001,41413)
+Error: Entity 0, Brush 49: outside world(+/-32767): (271,-80001,210)-(77577,80000,56538)
+Error: Entity 0, Brush 57: outside world(+/-32767): (-740,7802,-801)-(242,80032,181)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 51
+
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 52
+
+Error: Entity 0, Brush 55: outside world(+/-32767): (238,-80016,170)-(271,-42330,244)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 50
+
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 58
+
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 48
+
+Error: Entity 0, Brush 56: outside world(+/-32767): (-738,5301,-813)-(244,80016,209)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68463,-80016,166)-(271,80016,77720)
+Error: Entity 0, Brush 57: outside world(+/-32767): (-724,7818,-787)-(226,80016,167)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77662,-80016,-19305)-(254,80017,41439)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19224,-80017,170)-(77557,80016,77696)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68463,-80016,166)-(271,80016,77720)
+Error: Entity 0, Brush 56: outside world(+/-32767): (-754,5285,-809)-(260,80032,205)
+Error: Entity 0, Brush 55: outside world(+/-32767): (222,-80032,174)-(287,-42314,240)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19130,-80016,170)-(13379,80016,78912)
+Error: Entity 0, Brush 60: outside world(+/-32767): (258,-80000,207)-(15900,80000,78876)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 49
+
+Error: Entity 0, Brush 48: outside world(+/-32767): (255,-80017,174)-(77593,80016,56574)
+Error: Entity 0, Brush 55: outside world(+/-32767): (238,-80016,188)-(271,-42330,226)
+Error: Entity 0, Brush 56: outside world(+/-32767): (-738,5301,-795)-(244,80016,191)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19224,-80017,170)-(77557,80016,77696)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19130,-80016,170)-(13379,80016,78912)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77669,-80016,-19278)-(254,80017,41476)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77662,-80016,-19305)-(254,80017,41439)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77646,-80000,-19269)-(255,80001,77684)
+Error: Entity 0, Brush 60: outside world(+/-32767): (258,-80000,207)-(15900,80000,78876)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77664,-80016,-19297)-(254,80017,41449)
+Error: Entity 0, Brush 49: outside world(+/-32767): (255,-80017,174)-(77593,80016,56574)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68463,-80016,166)-(271,80016,77720)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19224,-80017,170)-(77557,80016,77696)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77669,-80016,-19278)-(254,80017,41476)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 60
+
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19103,-80000,206)-(15900,80000,78404)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77664,-80016,-19297)-(254,80017,41449)
+Error: Entity 0, Brush 48: outside world(+/-32767): (255,-80017,174)-(77593,80016,56574)
+Error: Entity 0, Brush 49: outside world(+/-32767): (255,-80017,174)-(77593,80016,56574)
+Error: Entity 0, Brush 62: outside world(+/-32767): (261,-80001,207)-(77571,80000,78404)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19146,-80032,174)-(13395,80032,78908)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 54
+
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77669,-80016,-19278)-(254,80017,41476)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77662,-80016,-19305)-(254,80017,41439)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19103,-80000,206)-(1590Error: Entity 0, Brush 50: outside world(+/-32767): (-77664,-80016,-19297)-(254,80017,41449)
+0,80000,78404)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68479,-80032,170)-(287,80032,77716)
+Error: Entity 0, Brush 48: outside world(+/-32767): (255,-80017,174)-(77593,80016,56574)
+Error: Entity 0, Brush 62: outside world(+/-32767): (261,-80001,207)-(77571,80000,78404)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77662,-80016,-19305)-(271,80017,77720)
+Error: Entity 0, Brush 60: outside world(+/-32767): (242,-80016,171)-(15916,80016,78912)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77680,-80032,-19293)-(270,80033,41445)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77678,-80032,-19301)-(270,80033,41435)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68479,-80032,170)-(287,80032,77716)
+Error: Entity 0, Brush 48: outside world(+/-32767): (239,-80033,178)-(77609,80032,56570)
+Error: Entity 0, Brush 62: outside world(+/-32767): (261,-80001,207)-(77571,80000,78404)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77662,-80016,-19305)-(271,80017,77720)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 61
+
+Error: Entity 0, Brush 60: outside world(+/-32767): (242,-80016,171)-(15916,80016,78912)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77678,-80032,-19301)-(270,80033,41435)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68479,-80032,170)-(287,80032,77716)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19240,-80033,174)-(77573,80032,77692)
+Error: Entity 0, Brush 49: outside world(+/-32767): (255,-80017,174)-(77593,80016,56574)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 62
+
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77680,-80032,-19293)-(270,80033,41445)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19146,-80032,174)-(13395,80032,78908)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77685,-80032,-19274)-(270,80033,41472)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77678,-80032,-19301)-(270,80033,41435)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19240,-80033,174)-(77573,80032,77692)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19119,-80016,170)-(15916,80016,78440)
+Error: Entity 0, Brush 62: outside world(+/-32767): (245,-80017,171)-(77587,80016,78440)
+Error: Entity 0, Brush 60: outside world(+/-32767): (226,-80032,175)-(15932,80032,78908)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19119,-80016,170)-(15916,80016,78440)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19130,-80016,188)-(13379,80016,78894)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77662,-80016,-19305)-(271,80017,77720)
+Error: Entity 0, Brush 49: outside world(+/-32767): (239,-80033,178)-(77609,80032,56570)
+Error: Entity 0, Brush 48: outside world(+/-32767): (239,-80033,178)-(77609,80032,56570)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77680,-80032,-19293)-(270,80033,41445)
+Error: Entity 0, Brush 60: outside world(+/-32767): (226,-80032,175)-(15932,80032,78908)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77662,-80016,-19287)-(254,80017,41421)
+Error: Entity 0, Brush 53: outside world(+/-32767): (-19130,-80016,188)-(13379,80016,78894)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68463,-80016,184)-(271,80016,77702)
+Error: Entity 0, Brush 49: outside world(+/-32767): (239,-80033,178)-(77609,80032,56570)
+Error: Entity 0, Brush 48: outside world(+/-32767): (239,-80033,178)-(77609,80032,56570)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77664,-80016,-19279)-(254,80017,41431)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77662,-80016,-19287)-(254,80017,41421)
+Error: Entity 0, Brush 60: outside world(+/-32767): (242,-80016,189)-(15916,80016,78894)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68463,-80016,184)-(271,80016,77702)
+Error: Entity 0, Brush 62: outside world(+/-32767): (245,-80017,171)-(77587,80016,78440)
+Error: Entity 0, Brush 49: outside world(+/-32767): (239,-80033,178)-(77609,80032,56570)
+Error: Entity 0, Brush 48: outside world(+/-32767): (255,-80017,192)-(77593,80016,56556)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77664,-80016,-19279)-(254,80017,41431)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77643,-80000,-19282)-(15900,80001,78404)
+Error: Entity 0, Brush 58: outside world(+/-32767): (-77662,-80016,-19287)-(254,80017,41421)
+Error: Entity 0, Brush 60: outside world(+/-32767): (242,-80016,189)-(15916,80016,78894)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77678,-80032,-19301)-(287,80033,77716)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19240,-80033,174)-(77573,80032,77692)
+Error: Entity 0, Brush 62: outside world(+/-32767): (245,-80017,171)-(77587,80016,78440)
+Error: Entity 0, Brush 48: outside world(+/-32767): (255,-80017,192)-(77593,80016,56556)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77643,-80000,-19282)-(15900,80001,78404)
+Error: Entity 0, Brush 52: outside world(+/-32767): (-68463,-80016,184)-(271,80016,77702)
+Error: Entity 0, Brush 50: outside world(+/-32767): (-77664,-80016,-19279)-(254,80017,41431)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19135,-80032,174)-(15932,80032,78436)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77678,-80032,-19301)-(287,80033,77716)
+Error: Entity 0, Brush 49: outside world(+/-32767): (255,-80017,192)-(77593,80016,56556)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77643,-80000,-19282)-(15900,80001,78404)
+Error: Entity 0, Brush 62: outside world(+/-32767): (229,-80033,175)-(77603,80032,78436)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19224,-80017,188)-(77557,80016,77678)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77678,-80032,-19301)-(287,80033,77716)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77685,-80032,-19274)-(270,80033,41472)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19135,-80032,174)-(15932,80032,78436)
+Error: Entity 0, Brush 49: outside world(+/-32767): (255,-80017,192)-(77593,80016,56556)
+Error: Entity 0, Brush 62: outside world(+/-32767): (229,-80033,175)-(77603,80032,78436)
+Error: Entity 0, Brush 48: outside world(+/-32767): (255,-80017,192)-(77593,80016,56556)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77662,-80016,-19287)-(271,80017,77702)
+Warning: Illegal Brush (edge without opposite face): Entity 0, Brush 63
+
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19224,-80017,188)-(77557,80016,77678)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19119,-80016,188)-(15916,80016,78422)
+Error: Entity 0, Brush 62: outside world(+/-32767): (229,-80033,175)-(77603,80032,78436)
+Error: Entity 0, Brush 49: outside world(+/-32767): (255,-80017,192)-(77593,80016,56556)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77685,-80032,-19274)-(270,80033,41472)
+Error: Entity 0, Brush 51: outside world(+/-32767): (-19224,-80017,188)-(77557,80016,77678)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77662,-80016,-19287)-(271,80017,77702)
+Error: Entity 0, Brush 61: outside world(+/-32767): (-19119,-80016,188)-(15916,80016,78422)
+Error: Entity 0, Brush 62: outside world(+/-32767): (245,-80017,189)-(77587,80016,78422)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77659,-80016,-19318)-(15916,80017,78440)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77669,-80016,-19260)-(254,80017,41458)
+Error: Entity 0, Brush 54: outside world(+/-32767): (-77662,-80016,-19287)-(271,80017,77702)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77659,-80016,-19318)-(15916,80017,78440)
+Error: Entity 0, Brush 62: outside world(+/-32767): (245,-80017,189)-(77587,80016,78422)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77669,-80016,-19260)-(254,80017,41458)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77659,-80016,-19318)-(15916,80017,78440)
+Error: Entity 0, Brush 62: outside world(+/-32767): (245,-80017,189)-(77587,80016,78422)
+Error: Entity 0, Brush 59: outside world(+/-32767): (-77669,-80016,-19260)-(254,80017,41458)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77675,-80032,-19314)-(15932,80033,78436)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77675,-80032,-19314)-(15932,80033,78436)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77675,-80032,-19314)-(15932,80033,78436)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77659,-80016,-19300)-(15916,80017,78422)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77659,-80016,-19300)-(15916,80017,78422)
+Error: Entity 0, Brush 63: outside world(+/-32767): (-77659,-80016,-19300)-(15916,80017,78422)
+ (0.19 seconds)
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/tools/hlbsp.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" -low -chart 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a.log for the cause.
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/tools/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a.log for the cause.
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL34 64-bit (Aug 17 2015)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: "C:/Program Files (x86)/Steam/steamapps/common/Half-Life/tools/hlrad.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a" -low 
+>> There was a problem compiling the map.
+>> Check the file C:\Program Files (x86)\Steam\steamapps\common\Half-Life\regularguy\maps\c0a0a.log for the cause.
+
+-----   END   hlrad -----
+
+
+
