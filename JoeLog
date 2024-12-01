@@ -1,0 +1,9 @@
+$modelname	"models/props/joe.mdl"
+$body "gman_reference.smd"
+
+$surfaceprop	combine_metal
+$cdmaterials	"models/props"
+
+$sequence idle	"idle"
+
+$collisionmodel	"gman_reference" { $concave }
